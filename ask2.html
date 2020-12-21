@@ -30,12 +30,19 @@
 	background-color:#54F073
 	}
    </style>
+   <script>
+   function Geia(){
+   var onoma=document.querySelector("#txt1").value;
+   var xairetismos="Καλησπέρα"+onoma;
+   alert(xairetismos.toUpperCase());
+   }
+   </script>
    </head>
    <body>
    <div>
    <label>Δώσε ένα όνομα</label>
    <input type="text" id="txt1">
-   <button>Υποβολή</button>
+   <button onclick="Geia()">Υποβολή</button>
    </div>
    </body>
    </html>
